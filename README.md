@@ -27,18 +27,23 @@ This is implementation of the paper [CNN-based Cascaded Multi-task Learning of H
    run create_training_set_shtech.m in matlab to create training and validataion set along with ground truth files
 
 # Test
-1. Follow steps 1,2 and 3 from Data Setup
+1. Follow steps 1,2,3,4 and 5 from Data Setup
 2. Download pre-trained model files:
+
    [[Shanghai Tech A](https://www.dropbox.com/s/irho4laltre9ir5/cmtl_shtechA_204.h5?dl=0)]
+   
    [[Shanghai Tech B](https://www.dropbox.com/s/lkt5ipshibs027w/cmtl_shtechB_768.h5?dl=0)]
+   
    Save the model files under ROOT/final_models
    
 3. Run test.py
+
 	a. Set save_output = True to save output density maps
+	
 	b. Errors are saved in  output directory
 
 # Training
-1. Follow steps 1,2,3 and 5 from Data Setup
+1. Follow steps 1,2,3,4 and 6 from Data Setup
 2. Run train.py
 
 
