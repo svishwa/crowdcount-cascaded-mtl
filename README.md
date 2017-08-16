@@ -1,6 +1,6 @@
 # CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting
 
-This is implementation of the paper [["CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting"](https://arxiv.org/pdf/1707.09605.pdf)] which is accepted at [[AVSS 2017](http://www.avss2017.org/)]
+This is implementation of the paper [CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting](https://arxiv.org/pdf/1707.09605.pdf) which is accepted at [AVSS 2017](http://www.avss2017.org/)
 
 # Installation
 1. Install pytorch
