@@ -57,7 +57,7 @@ and set `use_tensorboard = True` in `ROOT/train.py`.
 
 # Other notes
 1. During training, the best model is chosen using error on the validation set. 
-2. 10% of the training set is set asised for validation. The validation set is chosen randomly.
+2. 10% of the training set is set aside for validation. The validation set is chosen randomly.
 3. Following are the results on  Shanghai Tech A and B dataset:
 			
                 |     |  MAE  |   MSE  |
