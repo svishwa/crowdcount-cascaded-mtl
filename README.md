@@ -1,9 +1,11 @@
-# CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting
+# CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting  (Single Image Crowd Counting)
 
-This is implementation of the paper [CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting](https://arxiv.org/pdf/1707.09605.pdf) which is accepted at [AVSS 2017](http://www.avss2017.org/)
+This is implementation of the paper [CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting](https://arxiv.org/pdf/1707.09605.pdf) for single image crowd counting which is accepted at [AVSS 2017](http://www.avss2017.org/)
 
 # Installation
 1. Install pytorch
+   Dropbox: https://www.dropbox.com/s/fipgjqxl7uj8hd5/ShanghaiTech.zip?dl=0
+   Baidu Disk: http://pan.baidu.com/s/1nuAYslz
 2. Clone this repository
   ```Shell
   git clone https://github.com/svishwa/crowdcount-cascaded-mtl.git
