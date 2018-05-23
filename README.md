@@ -2,10 +2,12 @@
 
 This is implementation of the paper [CNN-based Cascaded Multi-task Learning of High-level Prior and Density Estimation for Crowd Counting](https://arxiv.org/pdf/1707.09605.pdf) for single image crowd counting which is accepted at [AVSS 2017](http://www.avss2017.org/)
 
-# Installation
-1. Install pytorch
+# Installation (Use Python 2.7.xx)
+1. Install pytorch (libraries must be gpu-compatible)
+
+2. Install h5py
    
-2. Clone this repository
+3. Clone this repository
   ```Shell
   git clone https://github.com/svishwa/crowdcount-cascaded-mtl.git
   ```
@@ -31,6 +33,16 @@ This is implementation of the paper [CNN-based Cascaded Multi-task Learning of H
 6. cd ROOT/data_preparation/
 
    run create_training_set_shtech.m in matlab to create training and validataion set along with ground truth files
+   
+**Alternative for Octave users :**
+- Make sure to install image package for Octave. On the Octave command line execute this command after downloading an image package
+```
+pkg install -forge image-x.x.x.tar.gz
+```
+- Load the image package by executing the following command :
+```
+pkg load image
+```
 
 # Test
 1. Follow steps 1,2,3,4 and 5 from Data Setup
