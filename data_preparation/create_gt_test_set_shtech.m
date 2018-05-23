@@ -6,9 +6,9 @@
 clc; clear all;
 dataset = 'A';
 dataset_name = ['shanghaitech_part_' dataset ];
-path = ['../data/original/shanghaitech/part_' dataset '_final/test_data/images/'];
-gt_path = ['../data/original/shanghaitech/part_' dataset '_final/test_data/ground_truth/'];
-gt_path_csv = ['../data/original/shanghaitech/part_' dataset '_final/test_data/ground_truth_csv/'];
+path = ['../data/original/shanghaitech/part_' dataset '/test_data/images/'];
+gt_path = ['../data/original/shanghaitech/part_' dataset '/test_data/ground-truth/'];
+gt_path_csv = ['../data/original/shanghaitech/part_' dataset '/test_data/ground_truth_csv/'];
 
 mkdir(gt_path_csv )
 if (dataset == 'A')
